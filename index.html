@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ana's Website</title>
+        <style>
+            body{
+                background: rgb(145, 90, 155);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family:britannic;
+            }
+            head{
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            #all-contents{
+              max-width: 700px;  
+              margin: auto;
+            }
+            /*navigation menu*/
+            nav{
+                background: gray;
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+            }
+            nav header{
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul{
+                list-style-image: none;
+            }
+            nav li{
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a{
+                text-decoration: none;
+                color: #fff;
+            }
+            /*main container area underneath body*/
+            main{
+                background: white;
+                display:flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img{
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests {
+                font-size: 1.25em;
+            }
+            
+        </style>
+    </head>
+    
+    <body>
+     
+       <div id="all-contents">
+           <nav>
+           <ul>
+               <li><a href="index.html"></a>Home</li>
+               <li><a href="portfolio.html"></a>Portfolio</li>
+           </ul>
+           </nav>
+           <main>
+                <header>Ana's Wonderful Website</header>
+               <div class="sidebar">
+                    <img src= "https://en.wikipedia.org/wiki/File:Daphne_Blake.png">
+                   
+               </div>
+               
+               <div class="content">
+                   <header>Ana Blue</header>
+                   <p>Student at Northshore High.</p>
+                   <section class= "interests">
+                       <header>Interests</header>
+                       <ul>
+                           <li>Makeup</li>
+                           <li>Teaching</li>
+                           <li>Volunteering</li>
+                       </ul>
+                   </section>
+               </div>
+               
+           </main>
+       </div> 
+    </body>
+</html>
